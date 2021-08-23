@@ -29,7 +29,7 @@ class OakItems implements Feature {
             new OakItem(OakItems.OakItem.Sprayduck, 'Sprayduck', 'Makes your berries grow faster',
                 false, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 60, 1),
             new OakItem(OakItems.OakItem.Shiny_Charm, 'Shiny Charm', 'Encounter shinies more often',
-                true, [100.50, 160.60, 170.70, 180.80, 190.90, 1100.00], 1, 70, 150),
+                true, [1000.50, 1600.60, 1700.70, 1800.80, 1900.90, 2500.00], 1, 70, 150),
             new OakItem(OakItems.OakItem.Blaze_Cassette, 'Blaze Cassette', 'Hatch eggs faster',
                 false, [10.50, 25.60, 50.70, 75.80, 80.90, 2.00], 1, 80, 10),
             new OakItem(OakItems.OakItem.Cell_Battery, 'Cell Battery', 'More passive mining energy regen',
