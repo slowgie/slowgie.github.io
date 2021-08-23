@@ -41,8 +41,8 @@ export const HOUR = MINUTE * 60;
 export const DAY = HOUR * 24;
 export const WEEK = DAY * 7;
 
-export const ROAMING_MIN_CHANCE = 8192;
-export const ROAMING_MAX_CHANCE = 4096;
+export const ROAMING_MIN_CHANCE = 512;
+export const ROAMING_MAX_CHANCE = 1024;
 
 // Shinies
 export const SHINY_CHANCE_BATTLE = 8192;
