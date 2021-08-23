@@ -21,7 +21,7 @@ class OakItems implements Feature {
             new OakItem(OakItems.OakItem.Magic_Ball, 'Magic Ball', 'Gives a bonus to your catchrate',
                 true, [50, 60, 70, 80, 90, 100], 0, 20, 2, undefined, undefined, undefined, '%'),
             new OakItem(OakItems.OakItem.Amulet_Coin, 'Amulet Coin', 'Gain more coins from battling',
-                true, [500.25, 1000.30, 1500.35, 2000.40, 2500.45, 5000.50], 1, 30, 1),
+                true, [50.25, 100.30, 1500.35, 2000.40, 2500.45, 5000.50], 1, 30, 1),
             new OakItem(OakItems.OakItem.Poison_Barb, 'Poison Barb', 'Clicks do more damage',
                 true, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 40, 3),
             new OakItem(OakItems.OakItem.Exp_Share, 'EXP Share', 'Gain more exp from battling',
@@ -29,7 +29,7 @@ class OakItems implements Feature {
             new OakItem(OakItems.OakItem.Sprayduck, 'Sprayduck', 'Makes your berries grow faster',
                 false, [1.25, 1.30, 1.35, 1.40, 1.45, 1.50], 1, 60, 1),
             new OakItem(OakItems.OakItem.Shiny_Charm, 'Shiny Charm', 'Encounter shinies more often',
-                true, [50.50, 60.60, 70.70, 80.80, 90.90, 100.00], 1, 70, 150),
+                true, [100.50, 160.60, 170.70, 180.80, 190.90, 1100.00], 1, 70, 150),
             new OakItem(OakItems.OakItem.Blaze_Cassette, 'Blaze Cassette', 'Hatch eggs faster',
                 false, [10.50, 25.60, 50.70, 75.80, 80.90, 2.00], 1, 80, 10),
             new OakItem(OakItems.OakItem.Cell_Battery, 'Cell Battery', 'More passive mining energy regen',
@@ -41,7 +41,7 @@ class OakItems implements Feature {
             new BoughtOakItem(OakItems.OakItem.Explosive_Charge, 'Explosive Charge', 'All new mining layers start with damaged tiles', 'Cinnabar Island Shop',
                 true, [20, 40, 70, 75, 80, 85], 1, 50, undefined, undefined, AmountFactory.createArray([50000, 100000, 400000, 1000000, 2000000], GameConstants.Currency.money)),
             new BoughtOakItem(OakItems.OakItem.Treasure_Scanner, 'Treasure Scanner', 'Chance to multiply mining rewards', 'Cinnabar Island Shop',
-                true, [40, 80, 120, 160, 200, 240], 1, 25, undefined, undefined, AmountFactory.createArray([50000, 100000, 250000, 500000, 1000000], GameConstants.Currency.money), '%'),
+                true, [4, 8, 12, 16, 20, 24], 1, 25, undefined, undefined, AmountFactory.createArray([50000, 100000, 250000, 500000, 1000000], GameConstants.Currency.money), '%'),
         ];
 
         this.addMultiplier('clickAttack', OakItems.OakItem.Poison_Barb);
