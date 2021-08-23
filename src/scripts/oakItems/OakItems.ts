@@ -31,7 +31,7 @@ class OakItems implements Feature {
             new OakItem(OakItems.OakItem.Shiny_Charm, 'Shiny Charm', 'Encounter shinies more often',
                 true, [1000.50, 1600.60, 1700.70, 1800.80, 1900.90, 2500.00], 1, 70, 150),
             new OakItem(OakItems.OakItem.Blaze_Cassette, 'Blaze Cassette', 'Hatch eggs faster',
-                false, [10.50, 25.60, 50.70, 75.80, 80.90, 200], 1, 80, 10),
+                false, [10.50, 25.60, 50.70, 75.80, 100.90, 200], 1, 80, 10),
             new OakItem(OakItems.OakItem.Cell_Battery, 'Cell Battery', 'More passive mining energy regen',
                 false, [10.5, 20.6, 40.7, 80.8, 120.9, 200], 1, 90, 20),
             new BoughtOakItem(OakItems.OakItem.Squirtbottle, 'Squirtbottle', 'Increases the chance of berry mutations', 'Johto Berry Master',
