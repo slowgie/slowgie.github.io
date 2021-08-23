@@ -1,0 +1,11 @@
+node_modules/
+.idea/
+build/
+*.db
+config.js
+src/declarations/
+.vs/
+.vscode/
+*.sln
+Web.config
+report.*.json
