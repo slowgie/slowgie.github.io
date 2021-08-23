@@ -33,15 +33,15 @@ class OakItems implements Feature {
             new OakItem(OakItems.OakItem.Blaze_Cassette, 'Blaze Cassette', 'Hatch eggs faster',
                 false, [10.50, 25.60, 50.70, 75.80, 80.90, 150], 1, 80, 10),
             new OakItem(OakItems.OakItem.Cell_Battery, 'Cell Battery', 'More passive mining energy regen',
-                false, [1.5, 1.6, 1.7, 1.8, 1.9, 2], 1, 90, 20),
+                false, [10.5, 20.6, 40.7, 80.8, 120.9, 200], 1, 90, 20),
             new BoughtOakItem(OakItems.OakItem.Squirtbottle, 'Squirtbottle', 'Increases the chance of berry mutations', 'Johto Berry Master',
-                true, [10.25, 10.5, 10.75, 20, 20.25, 20.5], 1, 10, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], GameConstants.Currency.farmPoint)),
+                true, [100.25, 100.5, 100.75, 200, 225, 250], 1, 10, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], GameConstants.Currency.farmPoint)),
             new BoughtOakItem(OakItems.OakItem.Sprinklotad, 'Sprinklotad', 'Increases the chance of berry replants', 'Hoenn Berry Master',
-                true, [1.15, 1.3, 1.45, 1.6, 1.75, 1.9], 1, 2, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], GameConstants.Currency.farmPoint)),
+                true, [115, 130, 145, 160, 175, 190], 1, 2, undefined, undefined, AmountFactory.createArray([2000, 5000, 10000, 20000, 50000], GameConstants.Currency.farmPoint)),
             new BoughtOakItem(OakItems.OakItem.Explosive_Charge, 'Explosive Charge', 'All new mining layers start with damaged tiles', 'Cinnabar Island Shop',
-                true, [20, 40, 70, 75, 80, 85], 1, 50, undefined, undefined, AmountFactory.createArray([50000, 100000, 400000, 1000000, 2000000], GameConstants.Currency.money)),
+                true, [200, 400, 700, 750, 800, 850], 1, 50, undefined, undefined, AmountFactory.createArray([50000, 100000, 400000, 1000000, 2000000], GameConstants.Currency.money)),
             new BoughtOakItem(OakItems.OakItem.Treasure_Scanner, 'Treasure Scanner', 'Chance to multiply mining rewards', 'Cinnabar Island Shop',
-                true, [4, 8, 12, 16, 20, 24], 1, 25, undefined, undefined, AmountFactory.createArray([50000, 100000, 250000, 500000, 1000000], GameConstants.Currency.money), '%'),
+                true, [40, 80, 120, 160, 200, 240], 1, 25, undefined, undefined, AmountFactory.createArray([50000, 100000, 250000, 500000, 1000000], GameConstants.Currency.money), '%'),
         ];
 
         this.addMultiplier('clickAttack', OakItems.OakItem.Poison_Barb);
